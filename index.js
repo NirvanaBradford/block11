@@ -19,7 +19,7 @@ function describeTemperature(Fahrenheit) {
     describe = "very hot";
   }
 
-  return `${Fahrenheit}F is ${Celsius}C. That is ${describe}.`;
+  return `${Fahrenheit}F is ${Celsius}C in Celsius. That is ${describe}.`;
 }
 
 const Fahrenheit = prompt("Enter a temperature in Fahrenheit");
